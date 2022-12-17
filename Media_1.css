@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    width: 100%;
+    padding: 23px 0px;
+
+}
+.f1{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.first img{
+    width: 64px;
+    height: 32px;
+    cursor: pointer;
+}
+.first ul {
+    display: flex;
+    width: 49.5%;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.first ul li a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #111111;
+}
+.first ul li a:hover{
+    color: #e5480f;
+}
+.first ul li:last-child{
+    font-size: 30px;
+    display: none;
+}
+.second{
+    width: 100%;
+    height: 657px;
+    background-image: url(https://images02.nicepage.com/c461c07a441a5d220e8feb1a/892364894fd35bc8867dd5be/wdq-min.jpg);
+    background-size: cover;
+
+}
+.second2{
+    width: 77%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 400px;
+    z-index: 3;
+
+}
+.sec{
+    width: 30%;
+    height: 301px;
+    box-sizing: border-box;
+    background-color: #292d33;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.number{
+    margin-right: 17px;
+    width:75.5px ;
+    height:75.5px ;
+    line-height: 75.5px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    background-color:rgba(133, 142, 153,  0.45);
+
+    border: 3px solid white;
+}
+.number p{
+    font-size: 3rem;
+    font-family: Kalam;
+    font-weight: 400;
+}
+.head{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    margin-bottom: 2px;
+}
+.headp2{
+    padding-top: 25px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-family: Roboto ,sans-serif;
+    color: #ffffff;
+}
+.foot{
+    padding-top: 10px;
+    text-align: left;
+}
+.foot p{
+    font-style: italic;
+    color: #b3b3b3;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+    margin-bottom: 27px;
+}
+.foot a{
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 2px solid white;
+    font-family: 'Open Sans',sans-serif;
+    padding-bottom: 1px;
+}
+.foot a:hover{
+    color: #b3b3b3; 
+}
+.Free{
+    margin-bottom: 17px;
+    color: #b3b3b3;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+}
+.Free a{
+    padding-bottom: 1px;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-decoration: none;
+    color: #b3b3b3;
+    border-bottom: 1px solid #e6e6e6 ;
+}
+.Free a:hover{
+    color: #a1a1a1;
+}
+.third{
+    width: 100%;
+    height: 484px;
+    background-color: #000;
+}
+.fourth{
+    width: 100%;
+    height: 240.4px;
+    background-color: #333;
+}
+.fourth p:nth-child(1){
+    width:32%;
+    padding: 49px 0px ;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+}
+.fourth p:nth-child(2){
+    padding-top: 40px;
+    font-size: 0.8rem;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+}
+.fourth p:nth-child(2) a{
+    font-size: 0.8rem;
+    text-decoration: underline;
+    color: #adcce9;
+}
+.fourth p:nth-child(2) a:hover{
+    color: #a1a1a1;
+    text-decoration: none;
+}
+@media(max-width:992px){
+    .first ul{
+        justify-content: flex-end;
+    }
+    .first ul li{
+        display: none;
+    }
+    .first ul li:last-child{
+        display: block;
+    }
+    .third{
+        height: 800px;
+    }
+    .sec{
+        width: 45%;
+    }
+    .fourth p:nth-child(1){
+        width: 60%;
+    }
+}
+@media(max-width:768px){
+    .third{
+        height: 1800px;
+    }
+    .sec{
+        width: 80%;
+    }
+    .fourth p:nth-child(1){
+        padding: 30px 0;
+    }
+    .fourth p:nth-child(2){
+        padding-top: 20px;
+    }
+}
+@media(max-width:400px){
+    .third{
+        height: 1850px;
+    }
+    .sec{
+        width: 90%;
+        height:313px;
+    }
+}
